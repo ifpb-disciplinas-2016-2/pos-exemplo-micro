@@ -9,4 +9,13 @@
             30
         </session-timeout>
     </session-config>
+<!--    <data-source>
+        <name>java:app/jdbc/banco</name>
+        <class-name>org.postgresql.xa.PGXADataSource</class-name>
+        <server-name>host-banco</server-name>
+        <port-number>5432</port-number>
+        <database-name>banco</database-name>
+        <user>postgres</user>
+        <password>12345</password>
+    </data-source>-->
 </web-app>
